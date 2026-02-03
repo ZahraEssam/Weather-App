@@ -9,7 +9,6 @@ A dynamic weather application built using **JavaScript, AJAX, and DOM Manipulati
   - City
   - Temperature (°C)
   - Weather condition (e.g., sunny, cloudy, rainy)
-- Changes background based on current weather condition
 
 ## Technologies Used
 
@@ -22,6 +21,7 @@ A dynamic weather application built using **JavaScript, AJAX, and DOM Manipulati
 ## Live Demo
 
 [live Demo](https://zahraessam.github.io/Weather-App/)
+
 
 
 
