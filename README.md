@@ -19,4 +19,5 @@ A dynamic weather application built using **JavaScript, AJAX, and DOM Manipulati
 - Fetch API / AJAX
 - Geolocation API
   
-[live Demp]{https://zahraessam.github.io/Weather-App/)
+[live Demo](https://zahraessam.github.io/Weather-App/)
+
