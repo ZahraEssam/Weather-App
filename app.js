@@ -3,7 +3,7 @@ document.getElementById("getWeather").addEventListener("click", () => {
         if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(success, error);
     } else {
-        alert("Your browser does not support Geolocation 😢");
+        alert("Your browser does not support Geolocation");
     }
 });
 
@@ -15,7 +15,7 @@ function success(position) {
     console.log("Latitude:", lat, "Longitude:", lon);
 
     // Step 2: Fetch weather data from Weather API
-    const apiKey = "5ec380983e54440bb7a134354260302"; // Get your API key from weatherapi.com
+    const apiKey = "5ec380983e54440bb7a134354260302"; // API key from weatherapi.com
     const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${lat},${lon}`;
 
     fetch(url)
