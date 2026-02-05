@@ -22,7 +22,7 @@ A dynamic weather application built using **JavaScript, AJAX, and DOM Manipulati
 
 [live Demo](https://zahraessam.github.io/Weather-App/)
 
-##Flowchart 
+## Flowchart 
 
 
 ```mermaid
@@ -33,6 +33,7 @@ C --> D[Send Request using Fetch AJAX]
 D --> E[Weather API Response JSON]
 E --> F[Process Data in JavaScript]
 F --> G[Update UI using DOM Manipulation]
+
 
 
 
